@@ -8,3 +8,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.main{
+    background: url(./assets/bg-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -19,9 +19,9 @@ const App = () => {
   return (
     <div>
       {load ? (
-        <span className='text-center flex justify-center'>
-        {load && <HashLoader color='#fcd34d' size={300} />}
-    </span>
+        <span className='text-center flex justify-center mt-56'>
+          {load && <HashLoader color='#075fed' size={300} />}
+        </span>
       ) : (
         <MainLeout>
           <Home />
