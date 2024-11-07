@@ -14,7 +14,7 @@ const Home = () => {
 
             <div className='bg-gradient-to-l from-[#7D7570] via-[#7D7570] to-[#263D58] py-5'>
                 <div className='w-[1200px] mx-auto text-white flex gap-10 text-2xl'>
-                    <img className='h-64 w-[350px]' src={img} width={300} alt="" />
+                    <img className='h-64 w-[300px]' src={img} width={300} alt="" />
                     <div>
                         {
                             more ?
