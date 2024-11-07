@@ -3,7 +3,6 @@ import img from '../assets/women.jpg'
 import arrow from '../assets/top.svg'
 import arrow2 from '../assets/bottom.svg'
 import micrasoft from '../assets/micrasoft.png'
-import video from '../video/vomen-video.MOV'
 
 const Home = () => {
     const [more, setMore] = useState(false)
