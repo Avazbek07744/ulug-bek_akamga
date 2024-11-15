@@ -47,7 +47,7 @@ const Home = () => {
                                     Кукон Универститетининг Бошлангич таьлим 4 - боскич талабасиман. <br />
                                     Хозирда Фаргона вилояти Фаргона шахри 45- умумий урта таьлим
                                     мактаби бошлангич таьлим укитувчисиман. <br />
-                                    Oilali va uchta farzandi bor.
+                                    Оилаликман 3 нафар фарзандим бор.
                                 </p>
                             )}
                         </div>
@@ -57,7 +57,7 @@ const Home = () => {
 
             <div className="w-full lg:w-[700px] mx-auto flex flex-wrap justify-center gap-8 py-8">
                 <div className="text-center w-64 px-4">
-                    <img className="h-64 w-full mb-2 object-contain" src={micrasoft} alt="Microsoft" />
+                    <img className="h-64 w-full mb-2 bg-center	 object-cover" src={micrasoft} alt="Microsoft" />
                     <h2 className="text-lg font-semibold py-2">Microsoft Office</h2>
                 </div>
                 <div className="text-center w-64 px-4">
