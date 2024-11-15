@@ -14,3 +14,11 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#iframe{
+    background: url(./assets/oqituvchi.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

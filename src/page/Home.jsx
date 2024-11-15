@@ -18,34 +18,36 @@ const Home = () => {
     return (
         <div className=''>
             <div className='home h-[375px] py-32 text-center'>
-                <h1 className='text-8xl font-bold text-white'>Xakimova Saida <br /> Absuraxmon qizi</h1>
+                <h1 className='text-8xl font-bold text-[#333]'>Xakimova Saida <br /> Abduraxmon qizi</h1>
             </div>
 
             <div className='main'>
                 <div className='py-5 backdrop-sepia-0 bg-black/5'>
                     <div className='w-[1200px] mx-auto text-white flex gap-10 text-2xl'>
-                        <img className='h-64 w-[300px]' src={img} width={300} alt="" />
+                        <img className='h-64 w-[250px]' src={img} width={300} alt="" />
                         <div>
                             {
                                 more ?
                                     <button
                                         onClick={() => { setMore(false) }}
-                                        className='w-[650px] m-7 flex justify-between items-center text-left text-5xl py-3 px-2 font-bold border-b border-[#A39F9F]'>
+                                        className='text-[#333] w-[650px] m-7 flex justify-between items-center text-left text-5xl py-3 px-2 font-bold border-b border-[#A39F9F]'>
                                         Men haqimda...
                                         <img src={arrow} width={25} alt="" />
                                     </button>
                                     :
                                     <button
                                         onClick={() => { setMore(true) }}
-                                        className='w-[650px] m-7 flex justify-between items-center text-left text-5xl py-3 px-2 font-bold border-b border-[#A39F9F]'>
+                                        className='text-[#333] w-[650px] m-7 flex justify-between items-center text-left text-5xl py-3 px-2 font-bold border-b border-[#A39F9F]'>
                                         Men haqimda...
                                         <img src={arrow2} width={25} alt="" />
                                     </button>
                             }
                             {
                                 more ?
-                                    <p className='px-6 w-[650px]'>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste facilis rem quas exercitationem obcaecati. Totam suscipit atque ipsa nesciunt rerum aliquid maiores veniam labore accusamus doloremque. Nihil unde dolor delectus dolorum officia voluptatum magni aut aliquid, nesciunt quas autem facilis fugiat repudiandae pariatur omnis qui recusandae laboriosam neque! Commodi consequuntur quo totam sequi, dolorum magnam. Laudantium vitae pariatur quia. Libero nisi rerum voluptates. Nesciunt illo vitae ducimus pariatur adipisci facilis, ex aut! Fugiat officiis dignissimos impedit corporis illo autem reprehenderit dolorem quam sit, in, dolor atque? Obcaecati, accusantium odit. Porro corrupti id numquam a vero doloribus rem fuga repellendus facilis!
+                                    <p className='text-[#333] px-6 w-[650px]'>
+                                        Мен Хакимова Саида Абдурахмоновна  1982 - йил  7-январда  Фаргона вилояти Кувасой шахрида  зиёлилар оиласида тугилганман. <br />
+                                        Кукон Универститетининг  Бошлангич  таьлим   4 - боскич талабасиман. <br />
+                                        Хозирда Фаргона вилояти Фаргона шахри   45- умумий урта таьлим мактаби бошлангич таьлим укитувчисиман.
                                     </p> :
                                     <p></p>
                             }
@@ -64,10 +66,11 @@ const Home = () => {
                     <h2 className='text-lg font-semibold py-3 px-2 capitalize'>o'qita olish qobiliyati</h2>
                 </div>
             </div>
-
-            <div className="w-[1200px] mx-auto flex justify-center gap-10 py-8 pb-24">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5GsRE3gwD0?si=26QWBPyhNsU-oGkV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/KuMBJU_aK-E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div id="iframe">
+                <div className="w-[1200px] mx-auto flex justify-center gap-10 py-8 pb-24">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5GsRE3gwD0?si=26QWBPyhNsU-oGkV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KuMBJU_aK-E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
             <div className='bg-[#1E6C93] py-5 flex justify-center gap-36'>
                 <button onClick={goToTelegram} className="cursor-pointer px-4 py-2 bg-white rounded capitalize text-[#1E6C93]">telegram</button>
