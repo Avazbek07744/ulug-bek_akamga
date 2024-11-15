@@ -5,9 +5,9 @@ import warming from '../assets/warning.svg'
 const MainLeout = ({ children }) => {
     return (
         <div>
-            <header className='fixed w-full flex gap-5 items-center backdrop-sepia-0 bg-black/15'>
-                <img className='py-2 pe-1 ps-3' src={img} width={56} height={56} alt="women image" />
-                <h2 className='text-2xl text-[#333] font-semibold'>S. Xakimova</h2>
+            <header className="fixed w-full flex gap-5 items-center px-3 py-2 backdrop-sepia-0 bg-black/15">
+                <img className="w-14 h-14 object-cover" src={img} alt="Women image" />
+                <h2 className="text-xl md:text-2xl text-[#333] font-semibold">S. Xakimova</h2>
             </header>
 
             <div className='h-[92vh] w-full'>
